@@ -10,16 +10,19 @@ windows key + R, type "shell:startup" then press enter.<br>
 <h20>or C:\Users\YOURUSER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 
-I personally don't like to have multiple scripts open, so I usually make a "cfg" with the most used daily scripts, which is basically a bunch of scripts on one file(will post later).
+I personally don't like to have multiple scripts open, so I usually make a "
+<a href="https://github.com/eduwz/scripts/blob/master/cfg.ahk" alt="cfg.ahk">cfg.ahk</a>" with the most used daily scripts, which is basically a bunch of scripts on one file.
 
 
-for PoE i also use this
-http://lutbot.com/#/
+
+for PoE i also use this TCP disconnect macro:
+http://lutbot.com/#/ 
+
 
 
 
 <hr>
-<small>i will update/add more later...    or maybe not</small>
+
 
 
 
