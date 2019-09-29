@@ -1,7 +1,7 @@
 ; PoE Killer or any App really.
 ; use "PathOfExile_x64.exe" for non steam.
 
-F6:: ; this is the key if you want to rebind.
+F6:: ; this is the HotKey if you want to rebind.
 
 WinGet, Path, ProcessPath, A
 SplitPath, Path, ProcessName
