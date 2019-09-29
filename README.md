@@ -19,7 +19,7 @@ http://lutbot.com/#/
 
 
 <hr>
-<i>i will update/add more later or maybe not...</i>
+<i>i will update/add more later... or maybe not</i>
 
 
 
