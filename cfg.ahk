@@ -1,4 +1,3 @@
-
 #NoEnv
 #SingleInstance force
 #Persistent
@@ -11,7 +10,7 @@
 SetCapsLockState, AlwaysOff
 return
 
-; don't remember for what app was that 2 lines. :)
+; don't remember the reason for this 2 lines. :)
 Numpad1::XButton1
 Numpad2::XButton2
 return
@@ -34,6 +33,10 @@ Loop{
 	Process, Close, %ProcessName%
 	}
 return
+
+;
+; nothing was here!
+;
 
 ; ###### PoE Windowed Bordeless ######
 ; This will remove the window border and also move the window to a set resolution/position, the game must be running in windowed mode.
@@ -95,6 +98,30 @@ return
 
 ; this game doesn't allow to use semicolon, so this remap to page up.
 `;::PgUp
+
+; ###########################################
+; # apex
+; ###########################################
+
+#ifWinActive, ahk_exe r5apex.exe
+
+; jump w/ wheel up
+
+^WheelDown::
+SendInput {space}
+return
+
+
+; mute // todo mute game shortcut while landing cause is too loud
+
+
+; ###########################################
+; # krita
+; ###########################################
+
+#ifWinActive, ahk_exe krita.exe
+; title bar kinda sucks remove it //todo make title same color as theme
+
 
 ; ###########################################
 ; # @eduwz | Send me Nudes 
