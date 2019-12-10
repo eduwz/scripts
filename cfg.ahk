@@ -10,9 +10,9 @@
 SetCapsLockState, AlwaysOff
 return
 
-; don't remember the reason for this 2 lines. :)
-Numpad1::XButton1
-Numpad2::XButton2
+; mouse
+;F13::SendInput {XButton1}
+;F14::SendInput {XButton2}
 return
 
 
@@ -24,13 +24,15 @@ return
 ; This kill the poe process, sometimes the game crashes and windows won't let you open the game again because the process it still up.
 
 F6:: ; trigger HotKey
+ProcessName("PathOfExile_x64Steam.exe") or ProcessName("PathOfExile_x64.exe") ; it will kill both if open at same time
 
-ProcessName = PathOfExile_x64Steam.exe ; use "PathOfExile_x64.exe" for non steam.
+ProcessName(name){
 Loop{
-	Process, Exist, %ProcessName%
+	Process, Exist, %name%
 	If ErrorLevel = 0
 		break
-	Process, Close, %ProcessName%
+	Process, Close, %name%
+	}
 	}
 return
 
@@ -41,7 +43,8 @@ return
 ; ###### PoE Windowed Bordeless ######
 ; This will remove the window border and also move the window to a set resolution/position, the game must be running in windowed mode.
 
-#ifWinActive, ahk_exe PathOfExile_x64.exe ; use "PathOfExile_x64.exe" for non steam.
+
+#if WinActive("ahk_exe PathOfExile_x64Steam") or WinActive("ahk_exe PathOfExile_x64.exe")
 
 LWIN & 7:: ; trigger Hotkey
 SetTitleMatchMode, 2
@@ -112,7 +115,7 @@ SendInput {space}
 return
 
 
-; mute // todo mute game shortcut while landing cause is too loud
+; mute //todo mute game shortcut while landing cause is too loud
 
 
 ; ###########################################
