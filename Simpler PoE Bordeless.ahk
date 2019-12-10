@@ -1,7 +1,7 @@
 #NoEnv
 #SingleInstance force
 #Persistent
-#ifWinActive, ahk_exe PathOfExile_x64Steam.exe ; use "PathOfExile_x64.exe" for non steam.
+#if WinActive("ahk_exe PathOfExile_x64Steam.exe") or WinActive("ahk_exe PathOfExile_x64.exe")
 
 LWIN & 7:: ; this is the HotKey if you want to rebind.
 
