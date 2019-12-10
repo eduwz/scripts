@@ -1,7 +1,7 @@
 #NoEnv
 #SingleInstance force
 #Persistent
-#ifWinActive, ahk_exe PathOfExile_x64Steam.exe ; use "PathOfExile_x64.exe" for non steam.
+#if WinActive("ahk_exe PathOfExile_x64Steam.exe") or WinActive("ahk_exe PathOfExile_x64.exe")
 
 ; Set your Resolution or don't, I'm not your boss.
 W = 1920
