@@ -10,10 +10,14 @@
 SetCapsLockState, AlwaysOff
 return
 
-; mouse
-;F13::SendInput {XButton1}
-;F14::SendInput {XButton2}
-return
+; remap foward back buttons on mouse if needed
+
+;F13::Numpad1
+;return
+;F14::Numpad2
+;return
+;F15::Numpad3
+;return
 
 
 ; ###########################################
@@ -44,7 +48,7 @@ return
 ; This will remove the window border and also move the window to a set resolution/position, the game must be running in windowed mode.
 
 
-#if WinActive("ahk_exe PathOfExile_x64Steam") or WinActive("ahk_exe PathOfExile_x64.exe")
+#if WinActive("ahk_exe PathOfExile_x64Steam.exe") or WinActive("ahk_exe PathOfExile_x64.exe")
 
 LWIN & 7:: ; trigger Hotkey
 SetTitleMatchMode, 2
