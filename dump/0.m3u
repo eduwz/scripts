@@ -4,13 +4,14 @@
 #1080p
 
 
+#EXTINF:-1 group-title="Rede GLOBO" tvg-logo="http://www.ebanonet.com.br/wp-content/uploads/2018/03/Logo-tv-globo-2015.png",GLOBO TV VERDES MARES Full_HD H265 ²
+http://srv.tvprodigital.net:80/110175/110175/61326
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/IK3F9Uq.png" group-title="Local",Nova Era TV
-http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
+#EXTINF:-1 group-title="Rede GLOBO" tvg-logo="http://www.ebanonet.com.br/wp-content/uploads/2018/03/tvbahia.png",GLOBO VERDES MARES HD¹
+http://srv.tvprodigital.net:80/110175/110175/20623
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="https://www.sbt.com.br/assets/images/logo-sbt.png" group-title="General",SBT Interior
 http://srv3.zoeweb.tv:1935/z133-live/stream/chunklist_w1622437492.m3u8
-
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/7bTT8mw.png" group-title="General",TV Transamérica
 http://tvtransamerica.crossdigital.com.br:1935/ponto2/transamerica2/live.m3u8
@@ -24,6 +25,8 @@ https://cdn.jmvstream.com/w/LVW-8215/ngrp:LVW8215_fL5vRbpRn1_all/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="http://www.lyngsat-stream.com/logo/tv/tt/tv_uniao_fortaleza.png" group-title="Education",TVU Recife
 http://150.161.93.220/hls/1080/index.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/IK3F9Uq.png" group-title="Local",Nova Era TV
+http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
 
 #720p
 
