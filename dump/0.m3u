@@ -10,6 +10,12 @@ http://srv.tvprodigital.net:80/110175/110175/61326
 #EXTINF:-1 group-title="Rede GLOBO" tvg-logo="http://www.ebanonet.com.br/wp-content/uploads/2018/03/tvbahia.png",GLOBO VERDES MARES HD¹
 http://srv.tvprodigital.net:80/110175/110175/20623
 
+#EXTINF:-1 group-title="General" tvg-logo="http://painelgerenciador.com.br/logos/img/sbt.png",SBT HD
+http://tvaz.top:80/martins/123456/68766
+
+#EXTINF:-1 group-title="General" tvg-logo="http://painelgerenciador.com.br/logos/img/sbt.png",SBT FHD
+http://tvaz.top:80/martins/123456/68765
+
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="https://www.sbt.com.br/assets/images/logo-sbt.png" group-title="General",SBT Interior
 http://srv3.zoeweb.tv:1935/z133-live/stream/chunklist_w1622437492.m3u8
 
