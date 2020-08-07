@@ -131,9 +131,3 @@ https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/chunklist_b2128000.
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="https://static.wixstatic.com/media/b65580_bce8e5a81581452f95b81af9a35679c0~mv2.png/v1/fill/w_346,h_94,al_c,q_85,usm_0.66_1.00_0.01/Logo_CentralTV_impress%C3%A3o_-_horizontal_pn.webp" group-title="Local",CENTRAL TV
 https://serv2.videovox.pw/joaorodrigo7309/joaorodrigo7309/chunklist_w235117687.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="https://www.sbt.com.br/assets/images/logo-sbt.png" group-title="General",SBT yt
-https://youtu.be/9z_8k1Ir-6U
-
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="https://www.sbt.com.br/assets/images/logo-sbt.png" group-title="General",SBT 2
-https://evpp.mm.uol.com.br/ne10/ne10.smil/chunklist_w723819611_b216000_sleng.m3u8
