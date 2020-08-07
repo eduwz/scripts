@@ -1,5 +1,8 @@
 #EXTM3U
 
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Portuguese" tvg-logo="https://www.sbt.com.br/assets/images/logo-sbt.png" group-title="General",SBT Interior
+http://srv3.zoeweb.tv:1935/z133-live/stream/chunklist_w1622437492.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="http://painelgerenciador.com.br/logos/img/premiere.png",Premiere 2 FHD
 http://tvaz.top:80/martins/123456/69086
 #EXTINF:-1 group-title="Sports" tvg-logo="http://painelgerenciador.com.br/logos/img/premiere.png",Premiere 3 FHD
