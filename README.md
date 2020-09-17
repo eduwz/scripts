@@ -4,7 +4,7 @@
 <br>you will need AutoHotKey https://www.autohotkey.com/
 <br>everything after a semicolon ";" is a comment and will be ignored when the script runs.
 
-<br>To run the script when windows starts create a shortcut of the script then throw it on the windows Startup folder.
+<br>To run the scripts when windows starts create a shortcut of the script then throw it on the windows Startup folder.
 <br>windows key + R, type "shell:startup" then press enter.
 <br><img src="https://i.imgur.com/FdmOJXT.jpg" alt="shell:startup">
 <br><h20>or C:\Users\YOURUSER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
@@ -19,7 +19,7 @@
 http://lutbot.com/#/ 
 
 
-
+<br>also using <a href="https://www.nirsoft.net/utils/nircmd.html" alt="nircmd">nircmd</a> for a few media controls
 
 <hr>
 
