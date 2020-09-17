@@ -4,7 +4,7 @@
 ;*-------------------------------------------------------------------------------------------------------*/
 
 #Include poehotkeys.ahk
-#Include spotify.ahk
+#Include media.ahk
 #Include poekiller.ahk
 #Include poebordeless.ahk
 
