@@ -1,5 +1,5 @@
 # scripts
-<i>some ahk scripts</i>
+<i>some random ahk scripts</i>
 
 <br>you will need AutoHotKey https://www.autohotkey.com/
 <br>everything after a semicolon ";" is a comment and will be ignored when the script runs.
