@@ -49,7 +49,7 @@
 	alert:
 	Send ^c
 	if (RegExMatch(clipboard, "!tal d|f ph|gen|eec|% ma|oj|f bur|hil"))
-	SoundPlay, Alert.mp3
+	SoundPlay, sound/Alert.mp3
 	return
 	
 }
