@@ -4,9 +4,9 @@
 
 ; /* poehotkeys.ahk */
 
-#If WinExist("ahk_exe PathOfExile_x64Steam.exe") OR If WinExist("ahk_exe PathOfExile_x64.exe")
+#If WinExist("ahk_exe PathOfExileSteam.exe") OR If WinExist("ahk_exe PathOfExile_x64.exe")
 {
-	GroupAdd, Client, ahk_exe PathOfExile_x64Steam.exe
+	GroupAdd, Client, ahk_exe PathOfExileSteam.exe
 	GroupAdd, Client, ahk_exe PathOfExile_x64.exe
 
 	Hotkey, IfWinActive, ahk_group Client
@@ -15,6 +15,8 @@
 	Hotkey, ^h, hideout
 	Hotkey, F2, remaining
 	Hotkey, F3, oss
+	Hotkey, $^g, mapmod
+	Hotkey, ~^LButton, alert
 	return
 
 	left:
@@ -38,7 +40,18 @@
 	oss:
 	SendInput {enter} /oss {enter}
 	return
-
+	
+	mapmod:
+	Send ^f
+	SendRaw "!tal d|f ph|gen|eec|`% ma|oj|f bur|hil".
+	return
+	
+	alert:
+	Send ^c
+	if (RegExMatch(clipboard, "!tal d|f ph|gen|eec|% ma|oj|f bur|hil"))
+	SoundPlay, Alert.mp3
+	return
+	
 }
 return
 
