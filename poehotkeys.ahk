@@ -47,10 +47,12 @@
 	return
 	
 	alert:
+	ClipSaved := ClipboardAll
 	Send ^c
 	if (RegExMatch(clipboard, "Item Class: Maps"))
 	if (RegExMatch(clipboard, "i)tal d|f ph|gen|eec|`% ma|oj|bur|hill"))
 	SoundPlay, sound/Alert.mp3
+	Clipboard := ClipSaved
 	return
 	
 }
