@@ -48,7 +48,8 @@
 	
 	alert:
 	Send ^c
-	if (RegExMatch(clipboard, "!tal d|f ph|gen|eec|% ma|oj|f bur|hil"))
+	if (RegExMatch(clipboard, "Item Class: Maps"))
+	if (RegExMatch(clipboard, "i)tal d|f ph|gen|eec|`% ma|oj|bur|hill"))
 	SoundPlay, sound/Alert.mp3
 	return
 	
