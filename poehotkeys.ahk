@@ -28,33 +28,32 @@
 	SendInput {right}
 	Sleep 20
 	return
-	
+
 	hideout:
 	SendInput {enter} /hideout {enter}
 	return
-	
+
 	remaining:
 	SendInput {enter} /remaining {enter}
 	return
-	
+
 	oss:
 	SendInput {enter} /oss {enter}
 	return
-	
+
 	mapmod:
 	Send ^f
 	SendRaw "!tal d|f ph|gen|eec|`% ma|oj|f bur|hil".
 	return
-	
+
 	alert:
 	ClipSaved := ClipboardAll
 	Send ^c
-	if (RegExMatch(clipboard, "Item Class: Maps"))
-	if (RegExMatch(clipboard, "i)tal d|f ph|gen|eec|`% ma|oj|bur|hill"))
+	if InStr(clipboard, "Item Class: Maps") and RegExMatch(clipboard, "tal D|f Ph|gen|eec|`% ma|oj|Bur|hill")
 	SoundPlay, sound/Alert.mp3
 	Clipboard := ClipSaved
 	return
-	
+
 }
 return
 
